@@ -1,0 +1,42 @@
+title = "Leetcode 之旅"
+
+baseURL = "https://zrcoder.github.io/leetcode"
+languageCode = "zh-cn"
+defaultContentLanguage = "zh-cn"
+defaultContentLanguageInSubdir = true
+
+theme = "hugo-theme-learn"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[params]
+themeVariant = "mine"
+
+editURL = "https://github.com/zrcoder/leetcode/edit/hugo/content/"
+author = "zrcoder"
+description = "Leetcode 之旅"
+showVisitedLinks = false
+disableSearch = false
+disableAssetsBusting = false
+disableInlineCopyToClipBoard = true
+disableShortcutsTitle = false
+disableLandingPageButton = true
+disableLanguageSwitchingButton = false
+disableBreadcrumb = false
+disableMermaid = false
+customMermaidURL = "https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"
+disableNextPrev = false
+ordersectionsby = "weight"
+titleSeparator = "::"
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-tags'></i> 标签"
+url = "/tags"
+weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-github'></i> 源码"
+identifier = "ds"
+url = "https://github.com/zrcoder/leetcode/tree/hugo"
+weight = 20
